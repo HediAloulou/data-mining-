@@ -2,7 +2,7 @@ import re
 import pickle
 import streamlit as st # type: ignore
 
-model = pickle.load(open("best_model.pickle", "rb"))
+model = pickle.load(open("best_model_first.pickle", "rb"))
 
 st.title("Heart Disease Prediction")
 
